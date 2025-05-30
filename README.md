@@ -91,7 +91,7 @@ My personal website
   </a><br>
 
   <!-- WhatsApp Group -->
-  <a href="https://chat.whatsapp.com/INVITE_LINK_HERE" target="_blank" class="button whatsapp">
+  <a href="[https://chat.whatsapp.com/INVITE_LINK_HERE](https://chat.whatsapp.com/KD7unHyblqPJ6qaB6TQBj2)" target="_blank" class="button whatsapp">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     جروب واتساب بصيره
   </a>
