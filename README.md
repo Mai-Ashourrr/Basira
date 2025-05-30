@@ -3,98 +3,116 @@ My personal website
 
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Basira - بصيره</title>
+  <title>Basira – Empowerment & Guidance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
-      color: #3e3e3e;
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(145deg, #ffffff, #f1f7ff);
+      color: #333;
       text-align: center;
-      padding: 40px 20px;
-      background-image: linear-gradient(to bottom, #fff, #fdf6e3);
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #ffffffcc;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     }
 
     h1 {
-      color: #bfa046;
-      font-size: 36px;
-      margin-bottom: 10px;
+      font-size: 42px;
+      color: #2c3e50;
+      margin-bottom: 5px;
     }
 
     h2 {
-      color: #8c7b3f;
-      font-size: 24px;
+      font-size: 22px;
+      color: #555;
       margin-bottom: 30px;
+      font-weight: 500;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
     }
 
     .button {
-      display: inline-flex;
+      display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 12px 24px;
-      margin: 10px auto;
+      gap: 15px;
+      background-color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 14px 28px;
+      font-size: 17px;
+      font-weight: bold;
+      color: #333;
       text-decoration: none;
-      border-radius: 30px;
-      font-weight: 600;
-      font-size: 15px;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      border: 2px solid transparent;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+      justify-content: center;
     }
 
     .button img {
-      width: 20px;
-      height: 20px;
-    }
-
-    .facebook {
-      background-color: #3b5998;
-      color: white;
-    }
-
-    .instagram {
-      background-color: #e1306c;
-      color: white;
-    }
-
-    .whatsapp {
-      background-color: #25D366;
-      color: white;
+      width: 28px;
+      height: 28px;
     }
 
     .button:hover {
       transform: scale(1.05);
-      opacity: 0.95;
+      background-color: #f0f8ff;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #999;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Basira</h1>
-  <h2>بصيره - منصة الدعم والإرشاد</h2>
+  <div class="container">
+    <h1>Basira</h1>
+    <h2>Your safe space for support and empowerment</h2>
 
-  <p>تابعونا وتواصلوا معنا من خلال الروابط التالية:</p>
+    <div class="links">
+      <!-- Facebook Page -->
+      <a href="https://web.facebook.com/profile.php?id=61574468312535" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+        Follow us on Facebook
+      </a>
 
-  <!-- Facebook Page (Basira) -->
-  <a href="https://web.facebook.com/profile.php?id=61574468312535" target="_blank" class="button facebook">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
-    صفحة بصيره على فيسبوك
-  </a><br>
+      <!-- Instagram Page -->
+      <a href="https://www.instagram.com/basiraa45?igsh=Y3oxNW50Nmk2MzZ4" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        Follow us on Instagram
+      </a>
 
-  <!-- Instagram (Basiraa) -->
-  <a href="https://www.instagram.com/basiraa45?igsh=Y3oxNW50Nmk2MzZ4" target="_blank" class="button instagram">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-    صفحة بصيره على إنستجرام
-  </a><br>
+      <!-- WhatsApp Group -->
+      <a href="https://chat.whatsapp.com/KD7unHyblqPJ6qaB6TQBj2" target="_blank" class="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Join our WhatsApp Group
+      </a>
+    </div>
 
-  <!-- WhatsApp Group -->
-  <a href="[https://chat.whatsapp.com/INVITE_LINK_HERE](https://chat.whatsapp.com/KD7unHyblqPJ6qaB6TQBj2)" target="_blank" class="button whatsapp">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    جروب واتساب بصيره
-  </a>
+    <footer>
+      © 2025 Basira. All rights reserved.
+    </footer>
+  </div>
 
 </body>
 </html>
